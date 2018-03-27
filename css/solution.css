@@ -1,0 +1,16 @@
+.wrap .item-way{
+	margin-bottom: 60px;
+}
+.more-solution-btn{
+	width: 235px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #42b049;
+    border: 1px solid #42b049;
+    height: 41px;
+    font-size: 16px;
+    margin-top: 40px;
+    cursor: pointer;
+}

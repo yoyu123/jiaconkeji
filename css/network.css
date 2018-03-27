@@ -1,0 +1,16 @@
+.newitem .newitem_p{
+	font-size: 16px;
+}
+.newitem .netmore{
+	color:#7abc7f ;
+}
+.netimg{
+	overflow: hidden;
+}
+.netimg:hover>img{
+	transform: scale(1.06);
+}
+.noborder{
+	border: none;
+	padding-bottom: 0;
+}

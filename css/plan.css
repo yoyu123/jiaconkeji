@@ -1,0 +1,9 @@
+.planscreen{
+	width: 1200px;
+	margin: 0 auto;
+	background-size: 100% auto;
+	height: 422px;
+}
+.plancontent .centerbox{
+	margin: 60px auto 20px;
+}

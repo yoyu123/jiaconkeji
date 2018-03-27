@@ -1,0 +1,7 @@
+.aboutcontent p{
+	line-height: 24px;
+}
+.aboutcontent img{
+	display: inline-block;
+	margin-bottom: 20px;
+}

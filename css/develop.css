@@ -1,0 +1,62 @@
+
+/*内容*/
+
+.wrap .biaoti{
+	font-size: 36px;
+	color: #000;
+	margin-top: 100px;
+	/*margin-bottom: 100px;*/
+	text-align: center;
+}
+.wrap .biaoti_img{
+	text-align: center;
+	margin-bottom: 60px;
+}
+.wrap .toop ul li{
+	width: 306px;
+	height: 240px;
+	float: left;
+	margin-left: 108px;
+	cursor: pointer;
+}
+.wrap .toop ul .toop_li{
+	margin-left: 50px;
+}
+.wrap .toop ul li:hover{
+	background:#e5e5e5 ;
+	cursor: pointer;
+}
+.wrap .toop ul .toop_img{
+	padding-top: 10px;
+}
+.wrap .toop ul .toop_m{
+	width: 270px;
+}
+.wrap .toop ul .toop_a{
+	width: 272px;
+}
+.wrap .toop ul li div{
+	text-align: center;
+}
+.wrap .toop ul li p{
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 28px;
+	margin-bottom: 18px;
+}
+.wrap .toop ul li span{
+	color: #797b7b;
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+	padding: 0 10px;
+	font-family: "PingFangSC Reguler";
+}
+.wrap .toop ul li .toop_s{
+	text-align: center;
+	text-indent: 0;
+}
+.wrap{
+	margin-bottom:199px;
+}

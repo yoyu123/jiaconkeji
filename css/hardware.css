@@ -1,0 +1,132 @@
+.hardware-wrap{
+	margin: auto;
+	width: 1200px;
+}
+.hardware-list{
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	overflow: hidden;
+    flex-wrap: wrap;
+}
+.hardware-list .item{
+	width: 386px;
+	height: 460px;
+	background: #f4f6f8;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding-top: 40px;
+	margin-bottom: 40px;
+	cursor: pointer;
+	transition: all 0.32s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+.hardware-list .item:nth-child(3n+2){
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.hardware-list .item:hover{
+	box-shadow: 8px 8px 8px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+.hardware-list .item .product-name{
+	width: 60%;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.hardware-list .item .product-keyword{
+	font-size: 18px;
+	width: 60%;
+	text-align: center;
+}
+
+.contact-us .index-title{
+	margin-top: 0;
+}
+.contact-input{
+	width: 100%;
+	height: 776px;
+	background-image: url(../img/hardware/inputBg.jpg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact-input .input-group{
+	width: 1000px;
+	height: 560px;
+	background-color: rgba(255,255,255,0.8);
+	border: 1px solid #dedede;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: inherit;
+	padding: 45px 47px;
+}
+.contact-input .input-group .item{
+	width: 283px;
+}
+.contact-input .input-group .short:nth-child(3n+2){
+	margin-left: 27px;
+	margin-right: 27px;
+}
+.contact-input .input-group .long{
+	width: 100%;
+}
+.contact-input .input-group .item>.title{
+	font-size: 16px;
+	color: #2e2e2e ;
+}
+.contact-input .input-group .item>input,
+.contact-input .input-group .item>textarea,
+#employerScale{
+	outline: 0;
+	margin: 16px 0 40px 0;
+	background-color: #f5f7f9;
+	border: none;
+	width: 100%;
+	height: 40px;
+	padding: 0 10px;
+	transition: all 0.32s cubic-bezier(0.39, 0.58, 0.57, 1);
+	resize:none
+}
+.contact-input .input-group .item>textarea{
+	padding: 15px 10px;
+	height: 128px;
+	margin-bottom: 0;
+}
+.contact-input .input-group .item>input:focus,
+.contact-input .input-group .item>textarea:focus{
+	outline: 0;
+	box-shadow: 0px 0px 5px 2px #c7c7c7 inset;
+}
+.contact-input .input-group .send-btn{
+	width: 100%;
+	margin-top: 25px;
+}
+.contact-input .input-group .send-btn>span{
+	width: 165px;
+	height: 40px;
+	font-size: 16px;
+	border: 1px #42b049 solid;
+	color: #42b049;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
